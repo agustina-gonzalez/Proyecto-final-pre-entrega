@@ -10,6 +10,7 @@ $gris-oscuro: #4E565B;
     font-family: "alegreya", serif;
     font-size: 125%;
     background-color: $blanco-fondo;
+    color: $gris-oscuro;
     width: 90%;
     height: 32rem;
     margin: 1rem 4rem 4rem;
@@ -18,10 +19,6 @@ $gris-oscuro: #4E565B;
     align-items: center;
     justify-content: center;
     justify-items: center;
-}
-
-.formulario--check label:hover{
-    background-color: $gris-oscuro;
 }
 
 .formulario--btn{
@@ -33,4 +30,18 @@ $gris-oscuro: #4E565B;
 .formulario--btn::selection{
     background-color: $gris-oscuro ;
     color: $blanco-fondo;
+}
+
+.formulario-newsletter{
+    width: 40%;
+    font-family: "alegreya", serif;
+    font-size: 125%;
+    margin: 1rem 4rem 4rem;
+    padding: 4rem;
+    background-color: $blanco-fondo;
+    color: $gris-oscuro;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }

@@ -198,6 +198,7 @@ table td {
   font-family: "alegreya", serif;
   font-size: 125%;
   background-color: #FBFCFC;
+  color: #4E565B;
   width: 90%;
   height: 32rem;
   margin: 1rem 4rem 4rem;
@@ -207,9 +208,6 @@ table td {
   justify-content: center;
   justify-items: center; }
 
-.formulario--check label:hover {
-  background-color: #4E565B; }
-
 .formulario--btn {
   background-color: #4E565B;
   border: none;
@@ -218,6 +216,19 @@ table td {
 .formulario--btn::selection {
   background-color: #4E565B;
   color: #FBFCFC; }
+
+.formulario-newsletter {
+  width: 40%;
+  font-family: "alegreya", serif;
+  font-size: 125%;
+  margin: 1rem 4rem 4rem;
+  padding: 4rem;
+  background-color: #FBFCFC;
+  color: #4E565B;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; }
 
 /*VARIABLES*/
 /*NAVBAR DOS*/
