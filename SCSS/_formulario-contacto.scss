@@ -15,6 +15,9 @@ $negro: #2c2f31;
     flex-flow: column wrap ;
 }
 
+.contacto-form--map{
+    }
+
 .formulario{
     font-family: "alegreya", serif;
     font-size: 125%;
@@ -26,7 +29,6 @@ $negro: #2c2f31;
     padding: 4rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -50,9 +52,12 @@ $negro: #2c2f31;
     width: 90%;
     height: 15rem;
     margin: 3rem;
-    @media (min-width: 375px max-width 768px) {
+    @media (max-width: 540px) {
         height: 50vh;
-        
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     background-color: $blanco-fondo;
     border-radius: 12px;
