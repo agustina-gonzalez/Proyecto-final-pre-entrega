@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
 </head>
 <body class="container-fluid">
 <!--NAVBAR INTENTO DOS-->
-<header class="row">
+<header class="row cabeza">
     <nav class="navbar navbar-expand-lg navbar-light encabezado col-12 justify-content-center shadow">
         <a class="navbar-brand encabezado__logo" href="index.html">Incayuyo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,8 +53,8 @@
 
 
 <!--JUMBOTRON-->
-<section class="row mb-1 fuente jumbo-tron">
-    <div class="col-12 mt-4px ">
+<section class="jumbo-tron">
+    <div class="col-12 mt-4px jumbo-tron__caja">
         <h1 class="display-4 jumbo-tron--titulo">Incayuyo</h1>
         <p class="lead">Incayuyo, tu tienda de decoración online, el equilibrio justo entre calidad, precio y diseño, en función de tus necesidades.</p>
         <hr class="my-4">
@@ -142,28 +142,14 @@
     
 
 <!--FORMULARIO NEWSLETTER-->
-<div class="formulario-newsletter">
-    <h3>Suscribite a nuestro newsletter</h3>
-    <form class="formulario__newsletter">
-        <div class="col mb-3">
-            <label for="exampleFormControlInput1">Nombre</label>
-            <input type="text" class="form-control" placeholder="Nombre">
-            </div>
-            <div class="col">
-            <label for="exampleFormControlInput1">Apellido</label>
-            <input type="text" class="form-control" placeholder="Apellido">
-            </div>
-        <div class="form-group formu">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <button type="submit" class="btn btn-primary formulario--btn">Submit</button>
+<div class="formulario-news">
+    <h3 class="formulario-news--titulo">Suscribite a nuestro newsletter</h3>
+    <form class="formulario-news__bloques">
+        <input class="formulario-news--input" type="text" name="Nombre" placeholder="Nombre y apellido">
+        <input class="formulario-news--input" type="email" name="Correo electronico" placeholder="Correo electrónico">
+        <input class="formulario-news--boton" type="submit" name="Suscribirse" value="Suscribirse">
     </form>
+    
 </div>
 
 <!--FIN FORMULARIO NEWSLETTER-->

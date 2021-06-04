@@ -10,19 +10,25 @@ $gris-oscuro: #4E565B;
     background-size: cover;
     font-family: "Alegreya", serif;
     color: #434a4f; 
-    margin: 4px 10px;   
-    padding: 7rem 4rem;
+    margin: 4px 3rem;   
+    padding: 7rem 2px;
     border-radius: 3px;
-    height: 30rem;
-    width: 100%;
+    width: 90%;
+    height: 35rem;
+    display: flex;
     align-content: center;
     align-items: center;
 }
 
+.jumbo-tron__caja{
+    width: 80rem;
+    height: 20rem;
+}
+
 .jumbo-tron--titulo{
     font-family: "Alegreya", serif;
+    font-weight: bold;
     text-align: center;
-    align-items: center;
 }
 
 .jumbo-tron--btn{

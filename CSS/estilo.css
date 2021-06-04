@@ -194,15 +194,25 @@ table td {
 
 /*VARIABLES*/
 /*FORMULARIO de CONTACTO*/
+.contacto-form {
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap; }
+
 .formulario {
   font-family: "alegreya", serif;
   font-size: 125%;
   background-color: #FBFCFC;
   color: #4E565B;
-  width: 90%;
+  width: auto;
   height: 32rem;
   margin: 1rem 4rem 4rem;
   padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -217,21 +227,59 @@ table td {
   background-color: #4E565B;
   color: #FBFCFC; }
 
-.formulario-newsletter {
-  width: 40%;
+.formulario-news {
   font-family: "alegreya", serif;
   font-size: 125%;
-  margin: 1rem 4rem 4rem;
-  padding: 4rem;
+  width: 90%;
+  height: 15rem;
+  margin: 3rem;
   background-color: #FBFCFC;
-  color: #4E565B;
-  align-content: center;
+  border-radius: 12px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  justify-items: center; }
+  justify-content: center; }
+  @media (min-width: 375px max-width 768px) {
+    .formulario-news {
+      height: 50vh; } }
+
+.formulario-news__bloques {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between; }
+
+.formulario-news--titulo {
+  font-size: 200%;
+  color: #2c2f31;
+  font-weight: bold;
+  padding-bottom: 8px; }
+
+.formulario-news--input {
+  font-size: 80%;
+  padding: 6px;
+  margin: 5px; }
+
+.formulario-news--boton {
+  background-color: #454E565B;
+  border: none;
+  transition: all 500ms ease;
+  color: #FBFCFC;
+  margin: 5px;
+  padding: 6px;
+  font-size: 90%;
+  border-radius: 5px;
+  border: #4E565B; }
+
+.formulario-news--boton:hover {
+  background-color: #4E565B; }
 
 /*VARIABLES*/
 /*NAVBAR DOS*/
+.cabeza {
+  margin: 2px 2px 6px; }
+
 .encabezado {
   padding: 1rem 5rem;
   font-family: "alegreya", serif;
@@ -309,18 +357,23 @@ table td {
   background-size: cover;
   font-family: "Alegreya", serif;
   color: #434a4f;
-  margin: 4px 10px;
-  padding: 7rem 4rem;
+  margin: 4px 3rem;
+  padding: 7rem 2px;
   border-radius: 3px;
-  height: 30rem;
-  width: 100%;
+  width: 90%;
+  height: 35rem;
+  display: flex;
   align-content: center;
   align-items: center; }
 
+.jumbo-tron__caja {
+  width: 80rem;
+  height: 20rem; }
+
 .jumbo-tron--titulo {
   font-family: "Alegreya", serif;
-  text-align: center;
-  align-items: center; }
+  font-weight: bold;
+  text-align: center; }
 
 .jumbo-tron--btn {
   background-color: #454E565B;

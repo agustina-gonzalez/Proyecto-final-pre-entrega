@@ -3,18 +3,30 @@ $lila: #454E565B;
 $lilita: #80758d5b;
 $blanco-fondo:#FBFCFC;
 $gris-oscuro: #4E565B;
+$negro: #2c2f31;
 
 /*FORMULARIO de CONTACTO*/
+
+.contacto-form{
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap ;
+}
 
 .formulario{
     font-family: "alegreya", serif;
     font-size: 125%;
     background-color: $blanco-fondo;
     color: $gris-oscuro;
-    width: 90%;
+    width: auto;
     height: 32rem;
     margin: 1rem 4rem 4rem;
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -32,16 +44,57 @@ $gris-oscuro: #4E565B;
     color: $blanco-fondo;
 }
 
-.formulario-newsletter{
-    width: 40%;
+.formulario-news{
     font-family: "alegreya", serif;
     font-size: 125%;
-    margin: 1rem 4rem 4rem;
-    padding: 4rem;
+    width: 90%;
+    height: 15rem;
+    margin: 3rem;
+    @media (min-width: 375px max-width 768px) {
+        height: 50vh;
+        
+    }
     background-color: $blanco-fondo;
-    color: $gris-oscuro;
-    align-content: center;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    justify-items: center;
+}
+
+.formulario-news__bloques{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.formulario-news--titulo{
+    font-size: 200%;
+    color: $negro;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.formulario-news--input{
+    font-size: 80%;
+    padding: 6px;
+    margin: 5px;
+}
+
+.formulario-news--boton{
+    background-color: $lila;
+    border: none;
+    transition: all 500ms ease;
+    color: $blanco-fondo;
+    margin: 5px;
+    padding: 6px;
+    font-size: 90%;
+    border-radius: 5px;
+    border: $gris-oscuro;
+}
+
+.formulario-news--boton:hover{
+    background-color: $gris-oscuro;
 }
