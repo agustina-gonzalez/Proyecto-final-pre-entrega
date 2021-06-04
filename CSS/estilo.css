@@ -302,9 +302,6 @@ table td {
 
 /*VARIABLES*/
 .jumbo-tron {
-  background-image: url(multimedia/fondo.jpg);
-  background-position: center;
-  background-size: cover;
   font-family: "Alegreya", serif;
   color: #434a4f;
   margin: 4px 3rem;
@@ -315,6 +312,9 @@ table td {
   display: flex;
   align-content: center;
   align-items: center; }
+  @media (max-width: 540px) {
+    .jumbo-tron {
+      margin: 1rem; } }
 
 .jumbo-tron__caja {
   width: 80rem;
