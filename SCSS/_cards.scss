@@ -33,6 +33,12 @@ $gris-oscuro: #4E565B;
     background-color: $lila;
     border: none;
     transition: all 500ms ease;
+    color: $blanco-fondo;
+    margin: 5px;
+    padding: 6px;
+    font-size: 100%;
+    border-radius: 5px;
+    border: $gris-oscuro;
 }
 
 .tarjeta--link a:hover{
