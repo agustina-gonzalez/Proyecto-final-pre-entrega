@@ -3,10 +3,12 @@ $lila: #454E565B;
 $lilita: #80758d5b;
 $blanco-fondo:#FBFCFC;
 $gris-oscuro: #4E565B;
+$negro: #2c2f31;
+$gris: #434a4f;
 
 .jumbo-tron{
     font-family: "Alegreya", serif;
-    color: #434a4f; 
+    color: $gris; 
     margin: 4px 3rem;   
     padding: 7rem 2px;
     border-radius: 3px;
