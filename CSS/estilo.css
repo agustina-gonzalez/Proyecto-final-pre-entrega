@@ -204,20 +204,20 @@ table td {
 /*FORMULARIO de CONTACTO*/
 .contacto-form {
   margin: 1rem;
-  padding: 1rem;
+  padding: 2px;
   width: 100%;
   display: flex;
-  flex-flow: column wrap; }
+  flex-flow: row wrap; }
 
 .formulario {
   font-family: "alegreya", serif;
   font-size: 125%;
   background-color: #FBFCFC;
   color: #4E565B;
-  width: auto;
-  height: 32rem;
-  margin: 1rem 4rem 4rem;
-  padding: 4rem;
+  width: 50%;
+  height: 35rem;
+  margin: 1rem 1rem 4rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-content: center;
