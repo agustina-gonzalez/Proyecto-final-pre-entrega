@@ -102,7 +102,7 @@ body {
 /*VARIABLES*/
 /*TARJETAS*/
 .tarjeta {
-  width: 100%;
+  width: 98%;
   margin: 10px;
   padding: 5px;
   display: flex;
@@ -112,46 +112,46 @@ body {
 
 .tarjeta-1 {
   margin: 1rem;
+  width: 18rem;
+  height: 28rem;
   padding: 2px;
   font-family: "Alegreya", serif;
   transition: all .2s; }
 
 .tarjeta-2 {
   margin: 1rem;
+  width: 18rem;
+  height: 28rem;
   padding: 2px;
   font-family: "Alegreya", serif;
   transition: all .2s; }
 
 .tarjeta-3 {
   margin: 1rem;
+  width: 18rem;
+  height: 28rem;
   padding: 2px;
   font-family: "Alegreya", serif;
   transition: all .2s; }
 
 .tarjeta-4 {
   margin: 1rem;
+  width: 18rem;
+  height: 28rem;
   padding: 2px;
   font-family: "Alegreya", serif;
   transition: all .2s; }
 
 .tarjeta-individual {
-  width: 300px;
-  height: 440px;
+  width: 18rem;
+  height: 28rem;
   margin: 1rem;
   padding: 2px;
   font-family: "Alegreya", serif;
   transition: all .2s; }
 
-.tarjeta--btn {
-  background-color: #454E565B;
-  border: none;
-  transition: all 500ms ease;
-  color: #FBFCFC;
-  margin: 5px;
-  padding: 6px;
-  font-size: 100%;
-  border-radius: 5px;
-  border: #4E565B; }
+.tarjeta-individual--volados {
+  max-height: 18rem; }
 
 .tarjeta--link a:hover {
   background-color: #4E565B;
@@ -176,12 +176,6 @@ body {
 .tarjeta-individual:hover {
   background-color: #80758d5b;
   color: #FBFCFC; }
-
-.tarjeta-individual--img {
-  align-items: center;
-  justify-items: center;
-  width: 250px;
-  height: 250px; }
 
 /*VARIABLES*/
 .lavar {
@@ -446,12 +440,14 @@ body {
 .subtitulo {
   font-family: "alegreya", serif;
   font-size: 230%;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #434a4f; }
 
 .subtitulo--tres {
   font-family: "alegreya", serif;
   font-size: 190%;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #434a4f; }
 
 /*QUIENES SOMOS*/
 /*SECCION NOSOTRAS CON GRID: PRUEBA*/

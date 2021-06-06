@@ -7,7 +7,7 @@ $gris-oscuro: #4E565B;
 
 /*TARJETAS*/
 .tarjeta{
-    width: 100%;
+    width: 98%;
     margin: 10px;
     padding: 5px;
     display: flex;
@@ -17,28 +17,20 @@ $gris-oscuro: #4E565B;
 }
 
 @for $tarjeta from 1 through 4{
-    .tarjeta-#{$tarjeta}{margin: 1rem;
+    .tarjeta-#{$tarjeta}{margin: 1rem; width: 18rem; height: 28rem;
         padding: 2px; font-family: "Alegreya", serif; transition: all .2s} 
     };
 
 .tarjeta-individual {
-    width: 300px;
-    height: 440px;
+    width: 18rem;
+    height: 28rem;
     margin: 1rem;
     padding: 2px;
     font-family: "Alegreya", serif;
     transition: all .2s; }
 
-.tarjeta--btn{
-    background-color: $lila;
-    border: none;
-    transition: all 500ms ease;
-    color: $blanco-fondo;
-    margin: 5px;
-    padding: 6px;
-    font-size: 100%;
-    border-radius: 5px;
-    border: $gris-oscuro;
+.tarjeta-individual--volados{
+    max-height: 18rem;
 }
 
 .tarjeta--link a:hover{
@@ -68,10 +60,3 @@ $gris-oscuro: #4E565B;
         background-color:$lilita;
         color: $blanco-fondo;
     }   
-
-.tarjeta-individual--img{
-    align-items: center;
-    justify-items: center;
-    width: 250px;
-    height: 250px;
-}
