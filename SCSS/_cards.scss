@@ -3,6 +3,8 @@ $lila: #454E565B;
 $lilita: #80758d5b;
 $blanco-fondo:#FBFCFC;
 $gris-oscuro: #4E565B;
+$negro: #2c2f31;
+$gris: #434a4f;
 
 
 /*TARJETAS*/
@@ -14,6 +16,9 @@ $gris-oscuro: #4E565B;
     align-content: center;
     justify-content: center;
     align-items: center;
+    @media (max-width: 560px){
+        width: 90%;
+    }
 }
 
 @for $tarjeta from 1 through 4{
@@ -27,7 +32,8 @@ $gris-oscuro: #4E565B;
     margin: 1rem;
     padding: 2px;
     font-family: "Alegreya", serif;
-    transition: all .2s; }
+    transition: all .2s; 
+}
 
 .tarjeta-individual--volados{
     max-height: 18rem;

@@ -109,6 +109,9 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 560px) {
+    .tarjeta {
+      width: 90%; } }
 
 .tarjeta-1 {
   margin: 1rem;
