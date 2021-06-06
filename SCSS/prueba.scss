@@ -52,11 +52,32 @@ body{
 }
 
 /*QUIENES SOMOS*/
+
+/*SECCION NOSOTRAS CON GRID: PRUEBA*/
+
 .nosotras{
-    margin: 7px;
-    width: 100%;
-    height: 100%;
+    font-family: "alegreya", serif;
+    color: #434a4f;
+    margin: 1rem 3rem;
+    padding: 1rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+.nosotras__sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*PRUEBA DE SECCION QUIENES SOMOS
+.nosotras{
+    margin: 1rem 3rem;
+    padding: 1rem;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -68,28 +89,29 @@ body{
     width: 90%;
     height: 50%;
     margin: 3rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
 }
 
-.nosotras__sec--item{
-    @media (max-width: 480px){
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    };
-    @media (min-width: 500px){
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
-    @media (min-width: 600px){
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-    };
+.nosotras__sec--chicas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nosotras__sec--item-uno{
+    display: flex;
+    width: 50%;
+}
+
+.nosotras__sec--item-dos{
+    display: flex;
+    width: 50%;
 }
 
 .nosotras__sec--img{
@@ -141,4 +163,4 @@ body{
     margin: 0;
     padding: 1px;
     border: $lilita solid;
-}
+} */
