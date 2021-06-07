@@ -58,27 +58,11 @@ body{
 
 /*SECCION NOSOTRAS CON GRID: PRUEBA*/
 
+/*PRUEBA DE SECCION QUIENES SOMOS*/
 .nosotras{
-    font-family: "alegreya", serif;
-    color: $gris;
-    margin: 1rem 3rem;
-    padding: 1rem;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
-}
-.nosotras__sec{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-/*PRUEBA DE SECCION QUIENES SOMOS
-.nosotras{
-    margin: 1rem 3rem;
-    padding: 1rem;
-    width: 90%;
+    margin: 3rem 1rem 2rem;
+    padding: 8px;
+    width: 98%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -91,7 +75,7 @@ body{
 .nosotras__sec{
     width: 90%;
     height: 50%;
-    margin: 3rem 1rem 1rem 1rem;
+    margin: 2rem 1rem 1rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -101,24 +85,34 @@ body{
     justify-items: center;
 }
 
-.nosotras__sec--chicas{
+.nosotras-cont{
+    width: 100%;
+    margin: 1rem;
+    padding: 3px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
-.nosotras__sec--item-uno{
+.nosotras-cont__img{
+    margin: 3px;
+    width: 45%;
     display: flex;
-    width: 50%;
 }
 
-.nosotras__sec--item-dos{
+.nosotras-cont__par{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    align-items: center;
     display: flex;
-    width: 50%;
 }
 
-.nosotras__sec--img{
-    @media (max-width: 480px){
+.nosotras-cont__img--img{
+    max-width: 25rem;
+    max-height: 25rem;
+    /*@media (max-width: 480px){
         width: 300px;
         height: 250px;
     };
@@ -131,8 +125,18 @@ body{
         height: 300px;
         border-radius: 7px;
         margin: 7px;
-    };
+    };*/
 }
+
+.nosotras-cont__par--par{
+    font-family: "alegreya", serif;
+    margin: 1px;
+    padding: 2px;
+    display: flex;
+}
+
+
+/*
 .nosotras__sec--img-uno{
     @media (max-width: 480px){
         width: 300px;
@@ -149,21 +153,10 @@ body{
         margin: 7px;
     };
 }
-
-.nosotras__sec--parrafo{
-    font-family: "alegreya", serif;
-    margin: 7px;
-    padding: 2px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-}
-
+*/
 .mision{
     width: 100%;
     margin: 0;
     padding: 1px;
     border: $lilita solid;
-} */
+} 
