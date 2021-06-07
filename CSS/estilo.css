@@ -197,6 +197,10 @@ body {
   display: flex;
   order: 2;
   margin: 1rem 0; }
+  @media (max-width: 290px) {
+    .lavar__video {
+      width: 12rem;
+      height: 10rem; } }
 
 .lavar__tabla {
   display: flex;
