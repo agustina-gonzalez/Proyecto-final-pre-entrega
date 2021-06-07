@@ -78,6 +78,7 @@ body {
   /* Styles */ }
 
 /*VARIABLES*/
+/*FOOTER*/
 .contenedor-pie {
   font-family: "alegreya", serif;
   font-size: 130%;
@@ -99,6 +100,7 @@ body {
 .contenedor-pie a:hover {
   color: #FBFCFC; }
 
+/*FIN FOOTER*/
 /*VARIABLES*/
 /*TARJETAS*/
 .tarjeta {
@@ -181,6 +183,7 @@ body {
   color: #FBFCFC; }
 
 /*VARIABLES*/
+/*TABLA*/
 .lavar {
   margin: 1rem;
   padding: 1rem;
@@ -214,6 +217,7 @@ table td {
   border: #4E565B solid 1px;
   border-collapse: collapse; }
 
+/*FIN TABLA*/
 /*VARIABLES*/
 /*FORMULARIO de CONTACTO*/
 .contacto-form {
