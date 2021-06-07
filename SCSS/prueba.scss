@@ -23,6 +23,10 @@ $negro: #2c2f31;
 body{
     margin: 0px;
     background: radial-gradient($lila,$blanco-fondo);
+    @media (max-width: 570px){
+        margin: 1px;
+        padding: 1px;
+    }
 }
 
 .slider{
@@ -36,6 +40,7 @@ body{
 .texto__parrafo{
     text-align: center;
     font-family: "alegreya", serif;
+    font-size: 120%;
     
 }
 
@@ -60,16 +65,41 @@ body{
 
 /*PRUEBA DE SECCION QUIENES SOMOS*/
 .nosotras{
-    margin: 3rem 1rem 2rem;
-    padding: 8px;
-    width: 98%;
+    /*MEDIA QUERYS*/
+    margin: 3px 2px;
+    padding: 2px;
+    font-size: 100%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+
+    @media (min-width: 540px){
+        margin: 2rem 1rem;
+    }
+    @media (min-width: 1100px){
+        display: flex;
+        justify-content: center;
+        width: 98%;
+        margin: 1rem 1rem 0;
+        padding: 1rem 2px;
+        font-size: 120%;
+    }
+    @media (min-width: 1120px){
+        margin: 3rem 1rem 0;
+        padding: 8px;
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        font-size: 120%;
+    }
 }
 
 .nosotras__sec{
@@ -83,6 +113,34 @@ body{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    @media (min-width: 1100px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 98%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    @media (min-width: 1120px){
+        margin: 1rem;
+        padding: 1rem;
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+.nosotras__sec--subtitulo{
+    font-family: "Alegreya", serif ;
+    color: $gris;
+    font-weight: bold;
+    font-size: 200%;
+
 }
 
 .nosotras-cont{
@@ -92,40 +150,111 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /*MEDIA QUERYS*/
+    @media (max-width: 360px){
+        margin: 3px 2px;
+        padding: 2px;
+        font-size: 80%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    @media (min-width: 540px){
+        margin: 2rem 1rem;
+    }
+    @media (min-width: 1100px){
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    @media (min-width: 1120px){
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+    }
 
 }
 
 .nosotras-cont__img{
-    margin: 3px;
+    /*PARA MEDIA QUERY DESKTOPmargin: 3px;
     width: 45%;
+    display: flex;*/
+    margin: 3px 1px;
+    padding: 1px;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 540px){
+        margin: 2rem 1rem;
+    }
+    @media (min-width: 1100px){
+        display: flex;
+        justify-content: center;
+        width: 42%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    @media (min-width: 1120px){
+        display: flex;
+        width: 43%;
+        margin: 1rem;
+    }
 }
 
 .nosotras-cont__par{
-    margin: 1rem;
-    padding: 1rem;
-    width: 50%;
-    align-items: center;
-    display: flex;
+    width: 98%;
+    margin: 8px 3px 3px;
+    @media (min-width: 1100px){
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 1rem;
+        padding: 1rem 2px;
+    }
+    @media (min-width: 1120px){
+        display: flex;
+        width: 50%;
+        margin: 1rem;
+    }
 }
 
 .nosotras-cont__img--img{
-    max-width: 25rem;
-    max-height: 25rem;
-    /*@media (max-width: 480px){
-        width: 300px;
-        height: 250px;
-    };
-    @media (min-width: 500px){
-    width: 400px;
-    height: 300px;
-    border-radius: 7px;};
-    @media (min-width: 600px){
-        width: 500px;
-        height: 300px;
-        border-radius: 7px;
-        margin: 7px;
-    };*/
+    /*DESKTOP max-width: 25rem;
+    max-height: 25rem;*/
+        margin: 3px 2px;
+        padding: 2px;
+        width: 13rem;
+        height: 13rem;
+    @media (min-width: 350px){
+        width: 17rem;
+        height: 17rem;
+
+    }
+
+    @media (min-width: 540px){
+        margin: 2rem 1rem;
+    }
+    @media (min-width: 1100px){
+        display: flex;
+        justify-content: center;
+        width: 18rem;
+        height: 18rem;
+        margin: 1rem 1rem 4rem;
+        padding: 1rem 2px;
+    }
+    @media (min-width: 1120px){
+        display: flex;
+        width: 100%;
+        margin: 1rem 1rem 4rem;
+    }
 }
 
 .nosotras-cont__par--par{
@@ -135,25 +264,6 @@ body{
     display: flex;
 }
 
-
-/*
-.nosotras__sec--img-uno{
-    @media (max-width: 480px){
-        width: 300px;
-        height: 250px;
-    };
-    @media (min-width: 500px){
-    width: 400px;
-    height: 300px;
-    border-radius: 7px;};
-    @media (min-width: 600px){
-        width: 444px;
-        height: 300px;
-        border-radius: 7px;
-        margin: 7px;
-    };
-}
-*/
 .mision{
     width: 100%;
     margin: 0;
