@@ -20,6 +20,10 @@ $gris-oscuro: #4E565B;
     display: flex;
     order: 2;
     margin: 1rem 0;
+    @media (max-width: 290px){
+        width: 12rem;
+        height: 10rem;
+    }
 }
 
 .lavar__tabla{
