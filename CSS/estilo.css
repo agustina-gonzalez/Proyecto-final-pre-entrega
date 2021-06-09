@@ -464,10 +464,7 @@ body {
   color: #434a4f; }
 
 /*QUIENES SOMOS*/
-/*SECCION NOSOTRAS CON GRID: PRUEBA*/
-/*PRUEBA DE SECCION QUIENES SOMOS*/
 .nosotras {
-  /*MEDIA QUERYS*/
   margin: 3px 2px;
   padding: 2px;
   font-size: 100%;
@@ -577,9 +574,6 @@ body {
       padding: 1rem; } }
 
 .nosotras-cont__img {
-  /*PARA MEDIA QUERY DESKTOPmargin: 3px;
-    width: 45%;
-    display: flex;*/
   margin: 3px 1px;
   padding: 1px;
   width: 100%;
@@ -619,8 +613,6 @@ body {
       margin: 1rem; } }
 
 .nosotras-cont__img--img {
-  /*DESKTOP max-width: 25rem;
-    max-height: 25rem;*/
   margin: 3px 2px;
   padding: 2px;
   width: 13rem;
@@ -642,6 +634,8 @@ body {
       padding: 1rem 2px; } }
   @media (min-width: 1120px) {
     .nosotras-cont__img--img {
+      width: 18rem;
+      height: 18rem;
       display: flex;
       width: 100%;
       margin: 1rem 1rem 4rem; } }
